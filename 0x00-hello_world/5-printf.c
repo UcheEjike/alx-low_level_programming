@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
- * The main is the entry point of the program
- * If it returns 0 then it compiled successfully
+/**
+ *main -Entry point
+ *Return: Always 0 (Sucess)
  */
 
 int main(void)
