@@ -2,7 +2,6 @@
 
 /**
  * swap_int - swaps values of integers
- * @n: take an int
  * @a: take an int
  * @b: take an int
  */
