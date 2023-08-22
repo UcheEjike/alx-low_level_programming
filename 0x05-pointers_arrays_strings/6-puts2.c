@@ -9,20 +9,14 @@
 
 int _strlen(char *str)
 {
-	int count = 0;
+	int l, i = 0;
 
-	while (count >= 0)
+	while (str[i] != '\0')
 	{
-		if (str[count] == '\0')
-	{
-		_putchar('\n');
-		break;
+		i++;
 	}
-	if (count % 2 == 0)
-	{
-		_putchar(str[count]);
-		count++;
-	}
-	
-	}
+
+	l = i;
+
+	return (1);
 }
