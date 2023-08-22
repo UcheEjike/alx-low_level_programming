@@ -7,16 +7,22 @@
  * Return: length of a string
  */
 
-int _strlen(char *s)
+int _strlen(char *str)
 {
-	int l, i = 0;
+	int count = 0;
 
-	while (s[i] != '\0')
+	while (count >= 0)
 	{
-		i++;
+		if (str[count] == '\0')
+	{
+		_putchar('\n');
+		break;
 	}
-
-	l = i;
-
-	return (l);
+	if (count % 2 == 0)
+	{
+		_putchar(str[count]);
+		count++;
+	}
+	
+	}
 }
