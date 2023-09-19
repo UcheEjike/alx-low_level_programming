@@ -6,7 +6,7 @@
  * @s1: string to concatenate
  * @s2: other string to concatenate
  *
- * Return: pointer to the new string created (Success)
+ * Return: pointer to the new string created (Success), or NULL (Error)
  */
 char *str_concat(char *s1, char *s2)
 {
@@ -22,8 +22,8 @@ char *str_concat(char *s1, char *s2)
 	if (s3 == NULL)
 		return (NULL);
 
-	I = 0;
-	J = 0;
+	i = 0;
+	j = 0;
 
 	if (s1)
 	{
