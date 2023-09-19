@@ -2,9 +2,9 @@
 
 /**
  * main - finds and prints the first 98 Fibonacci numbers,
- * startng with 1 and 2
+ * starting with 1 and 2
  * followed by a new line
- * Return: Always 0 (Success)
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
@@ -21,7 +21,8 @@ int main(void)
 		k = k + j;
 		j = k - j;
 	}
-	ji = j / 1000000000;
+
+	j1 = j / 1000000000;
 	j2 = j % 1000000000;
 	k1 = k / 1000000000;
 	k2 = k % 1000000000;
