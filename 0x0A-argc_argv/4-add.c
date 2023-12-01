@@ -48,8 +48,8 @@ int _atoi(char *s)
 
 /**
  * main - adds two positive number
- * @argc - number of arguments
- * @argv - array of arguments
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
  * Return: 0 (Success), or 1 (Error)
  */
